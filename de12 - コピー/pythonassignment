@@ -1,0 +1,42 @@
+<html lang="jp">
+<head>
+    <title>python</title>
+
+    <link rel="stylesheet" href="./css homework/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header-de12">
+</header>
+<div class="main-de12">
+  <div>
+    <h3>今回は、pythonでゲームを作りました。</h3>
+  </div>
+  <div>
+    <h2>ルール説明</h2>
+  </div>
+  <div>
+    <ul>
+      <li>プレイ人数は1~3名</li>
+      <li>神奈川県の鉄道に関するゲームです。</li>
+    </ul>
+  </div>
+
+
+  <div>
+    <h3><a href="./pythonassignment"target="_blank">コードはこちらから</a></h3>
+  </div>
+
+  <div>
+    <h3>感想・まとめ</h3>
+  </div>
+
+  <div>
+    今回は過去に出された課題の中で一番難しかったです。<br>
+    しかし、短期間でよくできたのではないかと思います。
+  </div>
+</div>
+</body>

@@ -1,0 +1,40 @@
+
+#オープニング
+print("これから神奈川県電車ゲームを始めます")
+print("ルールは簡単！！他の人の答えを見ないこと！")
+
+for i in range(1,3):
+    print(i,"人目")
+
+    ok = 0
+    ng= 0
+    print=("ゲームスタート！")
+    a = input("横浜駅に入っている鉄道会社の数は？a 10 b 6 c 5")
+    b = input("みなとみらい線の駅の数は？a 5 b 6 c 2")
+    c = input("神奈川県内の全駅数は?a 251 b 97 c 371")
+    d = input("神奈川県の駅がない市区町村は？a 綾瀬市　b 中井町 c 座間市")
+if a == "6":
+    print("正解")
+    ok = ok + 1
+else:
+    print("不正解")
+    ng = ng + 1
+if b == "b":
+    print("正解")
+    ok = ok + 1
+else:
+    print("不正解")
+    ng = ng + 1
+if c == "c":
+    print("正解")
+    ok = ok + 1
+else:
+    print("不正解")
+    ng = ng + 1
+if d == "a":
+    print("正解")
+    ok = ok + 1
+else:
+    print("不正解")
+    ng = ng + 1
+print("おわりーーー　あなたの正解数は", ok, "正解率は", ok/(ok+ng)*100, "％です")

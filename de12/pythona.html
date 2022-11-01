@@ -1,0 +1,85 @@
+<html lang="jp">
+<head>
+    <title>python</title>
+
+    <link rel="stylesheet" href="./css homework/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header-de12">
+</header>
+<div class="main-de12">
+  <div>
+    <h3>今回は、pythonでゲームを作りました。</h3>
+  </div>
+  <div>
+    <h2>ルール説明</h2>
+  </div>
+  <div>
+    <ul>
+      <li>プレイ人数は1~3名</li>
+      <li>神奈川県の鉄道に関するゲームです。</li>
+    </ul>
+  </div>
+
+
+  <div>
+    <h3><a href="python/assignment"target="_blank">コードはこちらから</a></h3>
+    <br>
+    <code>
+        <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
+        <li style="background-color:#EFF;">print(<font style="color:brown;">"これから神奈川県電車ゲームを始めます"</font>)</li>
+        <li style="background-color:#EEF;">print(<font style="color:brown;">"ルールは簡単！！他の人の答えを見ないこと！"</font>)</li>
+        <li style="background-color:#EFF;"></li>
+        <li style="background-color:#EEF;">for i in range(1,3):</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(i,<font style="color:brown;">"人目"</font>)</li>
+        <li style="background-color:#EEF;"></li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;ok = 0</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;ng= 0</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print=(<font style="color:brown;">"ゲームスタート！"</font>)</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;a = input(<font style="color:brown;">"横浜駅に入っている鉄道会社の数は？a 10 b 6 c 5"</font>)</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;b = input(<font style="color:brown;">"みなとみらい線の駅の数は？a 5 b 6 c 2"</font>)</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;c = input(<font style="color:brown;">"神奈川県内の全駅数は?a 251 b 97 c 371"</font>)</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;d = input(<font style="color:brown;">"神奈川県の駅がない市区町村は？a 綾瀬市　b 中井町 c 座間市"</font>)</li>
+        <li style="background-color:#EEF;">if a == <font style="color:brown;">"6"</font>:</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"正解"</font>)</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;ok = ok + 1</li>
+        <li style="background-color:#EFF;">else:</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"不正解"</font>)</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;ng = ng + 1</li>
+        <li style="background-color:#EEF;">if b == <font style="color:brown;">"b"</font>:</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"正解"</font>)</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;ok = ok + 1</li>
+        <li style="background-color:#EFF;">else:</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"不正解"</font>)</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;ng = ng + 1</li>
+        <li style="background-color:#EEF;">if c == <font style="color:brown;">"c"</font>:</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"正解"</font>)</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;ok = ok + 1</li>
+        <li style="background-color:#EFF;">else:</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"不正解"</font>)</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;ng = ng + 1</li>
+        <li style="background-color:#EEF;">if d == <font style="color:brown;">"a"</font>:</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"正解"</font>)</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;ok = ok + 1</li>
+        <li style="background-color:#EFF;">else:</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print(<font style="color:brown;">"不正解"</font>)</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;ng = ng + 1</li>
+        <li style="background-color:#EEF;">print(<font style="color:brown;">"おわりーーー　あなたの正解数は"</font>, ok, <font style="color:brown;">"正解率は"</font>, ok/(ok+ng)*100, <font style="color:brown;">"％です"</font>)</li>
+        <li style="background-color:#EFF;"></li>
+        </ol></code>
+  </div>
+
+  <div>
+    <h3>感想・まとめ</h3>
+  </div>
+
+  <div>
+    今回は過去に出された課題の中で一番難しかったです。<br>
+    しかし、短期間でよくできたのではないかと思います。
+  </div>
+</div>
+</body>
